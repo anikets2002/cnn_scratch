@@ -1,6 +1,5 @@
 import numpy as np
 from scipy import signal
-from dnn import *
 
 data = pd.read_csv('train.csv')
 data = np.array(data)
